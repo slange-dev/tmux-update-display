@@ -1,4 +1,4 @@
-# tmux update $DISPLAY
+# Tmux update $DISPLAY env
 
 Inspired by https://gist.github.com/mikeboiko/b6e50210b4fb351b036f1103ea3c18a9.
 
@@ -26,7 +26,7 @@ Install [zsh-renew-tmux-env](https://github.com/lljbash/zsh-renew-tmux-env) for 
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 ```shell
-set -g @plugin 'lljbash/tmux-update-display'
+set -g @plugin 'slange-dev/tmux-update-display'
 ```
 
 Hit `prefix + I` to fetch the plugin and source it.
@@ -36,7 +36,7 @@ Hit `prefix + I` to fetch the plugin and source it.
 Clone the repo:
 
 ```shell
-$ git clone https://github.com/lljbash/tmux-update-display ~/clone/path
+$ git clone https://github.com/slange-dev/tmux-update-display ~/clone/path
 ```
 
 Add this line to the bottom of `.tmux.conf`:
